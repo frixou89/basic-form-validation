@@ -1,0 +1,4 @@
+[database]
+dbname = tickmill_test
+username = root
+password = 

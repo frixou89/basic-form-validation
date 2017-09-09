@@ -1,0 +1,67 @@
+body {
+    background-color: #303030;
+}
+
+h1 {
+    color: white;
+    margin-top: 50px;
+}
+
+.form-test {
+    margin: 40px auto;
+    max-width: 640px;
+    border: 1px solid #c00;
+    padding: 15px 20px 30px;
+    box-shadow: 1px 1px 3px #c00;
+    background-color: #f0f0f0;
+}
+
+.form-test .form-heading {
+    text-decoration: underline;
+}
+
+.form-test .actions {
+    margin: 10px auto 5px;
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 120px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 0;
+    border: 0;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #c00;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+.btn-primary {
+    background: #62bb00;
+}
+.btn-primary:hover {
+    background: #478800;
+}
+.btn-danger {
+    background: #c00;
+}
+.btn-danger:hover {
+    color: #fff;
+    background: #900;
+}
