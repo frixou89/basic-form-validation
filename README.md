@@ -10,7 +10,7 @@ Create a new file `config.ini` and set the database DSN settings in there. I hav
     ~~~
     <VirtualHost *:80>
         ServerName test.localhost
-        DocumentRoot C:\xampp7\htdocs\tickmill-test\public
+        DocumentRoot C:\xampp7\htdocs\example\public
     </VirtualHost>
     ~~~
 - To change the language use the language switcher on the top right
